@@ -1,0 +1,727 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		28047D6C1CE97EF70066A3AE /* FFChatBarMoreView.m in Sources */ = {isa = PBXBuildFile; fileRef = 28047D6B1CE97EF70066A3AE /* FFChatBarMoreView.m */; };
+		2823365D1CE567AA005D89F2 /* FFEmotionTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2823365C1CE567AA005D89F2 /* FFEmotionTextView.m */; };
+		282336601CE5B2F0005D89F2 /* FFEmotionPopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2823365F1CE5B2F0005D89F2 /* FFEmotionPopView.m */; };
+		282336631CE5C2B6005D89F2 /* XMProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 282336621CE5C2B6005D89F2 /* XMProgressHUD.m */; };
+		285471291CE46D6500AC4FEA /* FFEmotion.m in Sources */ = {isa = PBXBuildFile; fileRef = 285471281CE46D6500AC4FEA /* FFEmotion.m */; };
+		2854712B1CE46E2C00AC4FEA /* EmotionIcons in Resources */ = {isa = PBXBuildFile; fileRef = 2854712A1CE46E2C00AC4FEA /* EmotionIcons */; };
+		285471311CE46E6F00AC4FEA /* FFEmotionAttachment.m in Sources */ = {isa = PBXBuildFile; fileRef = 285471301CE46E6F00AC4FEA /* FFEmotionAttachment.m */; };
+		285471341CE46ECD00AC4FEA /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 285471331CE46ECD00AC4FEA /* UIImage+Extension.m */; };
+		2854713A1CE46F7A00AC4FEA /* FFTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 285471391CE46F7A00AC4FEA /* FFTextView.m */; };
+		2854713D1CE46FD500AC4FEA /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2854713C1CE46FD500AC4FEA /* UIView+Extension.m */; };
+		285471401CE4709000AC4FEA /* FFEmotionTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 2854713F1CE4709000AC4FEA /* FFEmotionTool.m */; };
+		285471571CE470D900AC4FEA /* MJExtensionConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 285471441CE470D900AC4FEA /* MJExtensionConst.m */; };
+		285471581CE470D900AC4FEA /* MJFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 285471461CE470D900AC4FEA /* MJFoundation.m */; };
+		285471591CE470D900AC4FEA /* MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 285471481CE470D900AC4FEA /* MJProperty.m */; };
+		2854715A1CE470D900AC4FEA /* MJPropertyKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 2854714A1CE470D900AC4FEA /* MJPropertyKey.m */; };
+		2854715B1CE470D900AC4FEA /* MJPropertyType.m in Sources */ = {isa = PBXBuildFile; fileRef = 2854714C1CE470D900AC4FEA /* MJPropertyType.m */; };
+		2854715C1CE470D900AC4FEA /* NSObject+MJClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 2854714E1CE470D900AC4FEA /* NSObject+MJClass.m */; };
+		2854715D1CE470D900AC4FEA /* NSObject+MJCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 285471501CE470D900AC4FEA /* NSObject+MJCoding.m */; };
+		2854715E1CE470D900AC4FEA /* NSObject+MJKeyValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 285471521CE470D900AC4FEA /* NSObject+MJKeyValue.m */; };
+		2854715F1CE470D900AC4FEA /* NSObject+MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 285471541CE470D900AC4FEA /* NSObject+MJProperty.m */; };
+		285471601CE470D900AC4FEA /* NSString+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 285471561CE470D900AC4FEA /* NSString+MJExtension.m */; };
+		285471751CE48E4A00AC4FEA /* FFPageFaceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 285471731CE48E4A00AC4FEA /* FFPageFaceView.m */; };
+		285471781CE48E6F00AC4FEA /* FFEmotionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 285471771CE48E6F00AC4FEA /* FFEmotionView.m */; };
+		287E33011CE19F420059C3DC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 287E33001CE19F420059C3DC /* main.m */; };
+		287E33041CE19F420059C3DC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 287E33031CE19F420059C3DC /* AppDelegate.m */; };
+		287E33071CE19F420059C3DC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 287E33061CE19F420059C3DC /* ViewController.m */; };
+		287E330A1CE19F420059C3DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 287E33081CE19F420059C3DC /* Main.storyboard */; };
+		287E330C1CE19F420059C3DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 287E330B1CE19F420059C3DC /* Assets.xcassets */; };
+		287E330F1CE19F420059C3DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 287E330D1CE19F420059C3DC /* LaunchScreen.storyboard */; };
+		287E331A1CE19F420059C3DC /* ________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 287E33191CE19F420059C3DC /* ________Tests.m */; };
+		287E33251CE19F420059C3DC /* ________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 287E33241CE19F420059C3DC /* ________UITests.m */; };
+		287E33351CE19F930059C3DC /* chatBar.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 287E33341CE19F930059C3DC /* chatBar.xcassets */; };
+		287E333C1CE19FE50059C3DC /* FFChatFaceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 287E333B1CE19FE50059C3DC /* FFChatFaceView.m */; };
+		287E33411CE1A15A0059C3DC /* SwipeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 287E33401CE1A15A0059C3DC /* SwipeView.m */; };
+		287E334A1CE1BCA60059C3DC /* FFChatBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 287E33491CE1BCA60059C3DC /* FFChatBar.m */; };
+		28AE56351CE44B96006434E5 /* NSString+Emoji.m in Sources */ = {isa = PBXBuildFile; fileRef = 28AE56341CE44B96006434E5 /* NSString+Emoji.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		287E33161CE19F420059C3DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 287E32F41CE19F420059C3DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 287E32FB1CE19F420059C3DC;
+			remoteInfo = "自定义聊天输入框";
+		};
+		287E33211CE19F420059C3DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 287E32F41CE19F420059C3DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 287E32FB1CE19F420059C3DC;
+			remoteInfo = "自定义聊天输入框";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		28047D6A1CE97EF70066A3AE /* FFChatBarMoreView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FFChatBarMoreView.h; path = ../FFChatBarMoreView.h; sourceTree = "<group>"; };
+		28047D6B1CE97EF70066A3AE /* FFChatBarMoreView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FFChatBarMoreView.m; path = ../FFChatBarMoreView.m; sourceTree = "<group>"; };
+		2823365B1CE567AA005D89F2 /* FFEmotionTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFEmotionTextView.h; sourceTree = "<group>"; };
+		2823365C1CE567AA005D89F2 /* FFEmotionTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFEmotionTextView.m; sourceTree = "<group>"; };
+		2823365E1CE5B2F0005D89F2 /* FFEmotionPopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFEmotionPopView.h; sourceTree = "<group>"; };
+		2823365F1CE5B2F0005D89F2 /* FFEmotionPopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFEmotionPopView.m; sourceTree = "<group>"; };
+		282336611CE5C2B6005D89F2 /* XMProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMProgressHUD.h; sourceTree = "<group>"; };
+		282336621CE5C2B6005D89F2 /* XMProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMProgressHUD.m; sourceTree = "<group>"; };
+		285471271CE46D6500AC4FEA /* FFEmotion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFEmotion.h; sourceTree = "<group>"; };
+		285471281CE46D6500AC4FEA /* FFEmotion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFEmotion.m; sourceTree = "<group>"; };
+		2854712A1CE46E2C00AC4FEA /* EmotionIcons */ = {isa = PBXFileReference; lastKnownFileType = folder; path = EmotionIcons; sourceTree = "<group>"; };
+		2854712F1CE46E6F00AC4FEA /* FFEmotionAttachment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFEmotionAttachment.h; sourceTree = "<group>"; };
+		285471301CE46E6F00AC4FEA /* FFEmotionAttachment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFEmotionAttachment.m; sourceTree = "<group>"; };
+		285471321CE46ECD00AC4FEA /* UIImage+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extension.h"; sourceTree = "<group>"; };
+		285471331CE46ECD00AC4FEA /* UIImage+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extension.m"; sourceTree = "<group>"; };
+		285471381CE46F7A00AC4FEA /* FFTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFTextView.h; sourceTree = "<group>"; };
+		285471391CE46F7A00AC4FEA /* FFTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFTextView.m; sourceTree = "<group>"; };
+		2854713B1CE46FD500AC4FEA /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		2854713C1CE46FD500AC4FEA /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		2854713E1CE4709000AC4FEA /* FFEmotionTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFEmotionTool.h; sourceTree = "<group>"; };
+		2854713F1CE4709000AC4FEA /* FFEmotionTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFEmotionTool.m; sourceTree = "<group>"; };
+		285471421CE470D900AC4FEA /* MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJExtension.h; sourceTree = "<group>"; };
+		285471431CE470D900AC4FEA /* MJExtensionConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJExtensionConst.h; sourceTree = "<group>"; };
+		285471441CE470D900AC4FEA /* MJExtensionConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJExtensionConst.m; sourceTree = "<group>"; };
+		285471451CE470D900AC4FEA /* MJFoundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJFoundation.h; sourceTree = "<group>"; };
+		285471461CE470D900AC4FEA /* MJFoundation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJFoundation.m; sourceTree = "<group>"; };
+		285471471CE470D900AC4FEA /* MJProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJProperty.h; sourceTree = "<group>"; };
+		285471481CE470D900AC4FEA /* MJProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJProperty.m; sourceTree = "<group>"; };
+		285471491CE470D900AC4FEA /* MJPropertyKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPropertyKey.h; sourceTree = "<group>"; };
+		2854714A1CE470D900AC4FEA /* MJPropertyKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJPropertyKey.m; sourceTree = "<group>"; };
+		2854714B1CE470D900AC4FEA /* MJPropertyType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJPropertyType.h; sourceTree = "<group>"; };
+		2854714C1CE470D900AC4FEA /* MJPropertyType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJPropertyType.m; sourceTree = "<group>"; };
+		2854714D1CE470D900AC4FEA /* NSObject+MJClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJClass.h"; sourceTree = "<group>"; };
+		2854714E1CE470D900AC4FEA /* NSObject+MJClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJClass.m"; sourceTree = "<group>"; };
+		2854714F1CE470D900AC4FEA /* NSObject+MJCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJCoding.h"; sourceTree = "<group>"; };
+		285471501CE470D900AC4FEA /* NSObject+MJCoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJCoding.m"; sourceTree = "<group>"; };
+		285471511CE470D900AC4FEA /* NSObject+MJKeyValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJKeyValue.h"; sourceTree = "<group>"; };
+		285471521CE470D900AC4FEA /* NSObject+MJKeyValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJKeyValue.m"; sourceTree = "<group>"; };
+		285471531CE470D900AC4FEA /* NSObject+MJProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJProperty.h"; sourceTree = "<group>"; };
+		285471541CE470D900AC4FEA /* NSObject+MJProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJProperty.m"; sourceTree = "<group>"; };
+		285471551CE470D900AC4FEA /* NSString+MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MJExtension.h"; sourceTree = "<group>"; };
+		285471561CE470D900AC4FEA /* NSString+MJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MJExtension.m"; sourceTree = "<group>"; };
+		285471731CE48E4A00AC4FEA /* FFPageFaceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFPageFaceView.m; sourceTree = "<group>"; };
+		285471741CE48E4A00AC4FEA /* FFPageFaceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFPageFaceView.h; sourceTree = "<group>"; };
+		285471761CE48E6F00AC4FEA /* FFEmotionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FFEmotionView.h; path = ../FFEmotionView.h; sourceTree = "<group>"; };
+		285471771CE48E6F00AC4FEA /* FFEmotionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FFEmotionView.m; path = ../FFEmotionView.m; sourceTree = "<group>"; };
+		287E32FC1CE19F420059C3DC /* 自定义聊天输入框.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "自定义聊天输入框.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		287E33001CE19F420059C3DC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		287E33021CE19F420059C3DC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		287E33031CE19F420059C3DC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		287E33051CE19F420059C3DC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		287E33061CE19F420059C3DC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		287E33091CE19F420059C3DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		287E330B1CE19F420059C3DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		287E330E1CE19F420059C3DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		287E33101CE19F420059C3DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		287E33151CE19F420059C3DC /* 自定义聊天输入框Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "自定义聊天输入框Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		287E33191CE19F420059C3DC /* ________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "________Tests.m"; sourceTree = "<group>"; };
+		287E331B1CE19F420059C3DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		287E33201CE19F420059C3DC /* 自定义聊天输入框UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "自定义聊天输入框UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		287E33241CE19F420059C3DC /* ________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "________UITests.m"; sourceTree = "<group>"; };
+		287E33261CE19F420059C3DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		287E33341CE19F930059C3DC /* chatBar.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = chatBar.xcassets; sourceTree = "<group>"; };
+		287E333A1CE19FE50059C3DC /* FFChatFaceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFChatFaceView.h; sourceTree = "<group>"; };
+		287E333B1CE19FE50059C3DC /* FFChatFaceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFChatFaceView.m; sourceTree = "<group>"; };
+		287E333F1CE1A15A0059C3DC /* SwipeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwipeView.h; sourceTree = "<group>"; };
+		287E33401CE1A15A0059C3DC /* SwipeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwipeView.m; sourceTree = "<group>"; };
+		287E33481CE1BCA60059C3DC /* FFChatBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFChatBar.h; sourceTree = "<group>"; };
+		287E33491CE1BCA60059C3DC /* FFChatBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFChatBar.m; sourceTree = "<group>"; };
+		28AE56331CE44B96006434E5 /* NSString+Emoji.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Emoji.h"; sourceTree = "<group>"; };
+		28AE56341CE44B96006434E5 /* NSString+Emoji.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Emoji.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		287E32F91CE19F420059C3DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		287E33121CE19F420059C3DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		287E331D1CE19F420059C3DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		28342CAD1CEADCC200756BC9 /* 类扩展 */ = {
+			isa = PBXGroup;
+			children = (
+				28AE56331CE44B96006434E5 /* NSString+Emoji.h */,
+				28AE56341CE44B96006434E5 /* NSString+Emoji.m */,
+				285471321CE46ECD00AC4FEA /* UIImage+Extension.h */,
+				285471331CE46ECD00AC4FEA /* UIImage+Extension.m */,
+				2854713B1CE46FD500AC4FEA /* UIView+Extension.h */,
+				2854713C1CE46FD500AC4FEA /* UIView+Extension.m */,
+			);
+			name = "类扩展";
+			sourceTree = "<group>";
+		};
+		28342CAE1CEADCEA00756BC9 /* 自定义文本框 */ = {
+			isa = PBXGroup;
+			children = (
+				2823365B1CE567AA005D89F2 /* FFEmotionTextView.h */,
+				2823365C1CE567AA005D89F2 /* FFEmotionTextView.m */,
+				285471381CE46F7A00AC4FEA /* FFTextView.h */,
+				285471391CE46F7A00AC4FEA /* FFTextView.m */,
+			);
+			name = "自定义文本框";
+			sourceTree = "<group>";
+		};
+		285471411CE470D900AC4FEA /* MJExtension */ = {
+			isa = PBXGroup;
+			children = (
+				285471421CE470D900AC4FEA /* MJExtension.h */,
+				285471431CE470D900AC4FEA /* MJExtensionConst.h */,
+				285471441CE470D900AC4FEA /* MJExtensionConst.m */,
+				285471451CE470D900AC4FEA /* MJFoundation.h */,
+				285471461CE470D900AC4FEA /* MJFoundation.m */,
+				285471471CE470D900AC4FEA /* MJProperty.h */,
+				285471481CE470D900AC4FEA /* MJProperty.m */,
+				285471491CE470D900AC4FEA /* MJPropertyKey.h */,
+				2854714A1CE470D900AC4FEA /* MJPropertyKey.m */,
+				2854714B1CE470D900AC4FEA /* MJPropertyType.h */,
+				2854714C1CE470D900AC4FEA /* MJPropertyType.m */,
+				2854714D1CE470D900AC4FEA /* NSObject+MJClass.h */,
+				2854714E1CE470D900AC4FEA /* NSObject+MJClass.m */,
+				2854714F1CE470D900AC4FEA /* NSObject+MJCoding.h */,
+				285471501CE470D900AC4FEA /* NSObject+MJCoding.m */,
+				285471511CE470D900AC4FEA /* NSObject+MJKeyValue.h */,
+				285471521CE470D900AC4FEA /* NSObject+MJKeyValue.m */,
+				285471531CE470D900AC4FEA /* NSObject+MJProperty.h */,
+				285471541CE470D900AC4FEA /* NSObject+MJProperty.m */,
+				285471551CE470D900AC4FEA /* NSString+MJExtension.h */,
+				285471561CE470D900AC4FEA /* NSString+MJExtension.m */,
+			);
+			path = MJExtension;
+			sourceTree = "<group>";
+		};
+		287E32F31CE19F420059C3DC = {
+			isa = PBXGroup;
+			children = (
+				287E32FE1CE19F420059C3DC /* 自定义聊天输入框 */,
+				287E33181CE19F420059C3DC /* 自定义聊天输入框Tests */,
+				287E33231CE19F420059C3DC /* 自定义聊天输入框UITests */,
+				287E32FD1CE19F420059C3DC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		287E32FD1CE19F420059C3DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				287E32FC1CE19F420059C3DC /* 自定义聊天输入框.app */,
+				287E33151CE19F420059C3DC /* 自定义聊天输入框Tests.xctest */,
+				287E33201CE19F420059C3DC /* 自定义聊天输入框UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		287E32FE1CE19F420059C3DC /* 自定义聊天输入框 */ = {
+			isa = PBXGroup;
+			children = (
+				287E33021CE19F420059C3DC /* AppDelegate.h */,
+				287E33031CE19F420059C3DC /* AppDelegate.m */,
+				287E33051CE19F420059C3DC /* ViewController.h */,
+				287E33061CE19F420059C3DC /* ViewController.m */,
+				287E33481CE1BCA60059C3DC /* FFChatBar.h */,
+				287E33491CE1BCA60059C3DC /* FFChatBar.m */,
+				287E333A1CE19FE50059C3DC /* FFChatFaceView.h */,
+				287E333B1CE19FE50059C3DC /* FFChatFaceView.m */,
+				28047D6A1CE97EF70066A3AE /* FFChatBarMoreView.h */,
+				28047D6B1CE97EF70066A3AE /* FFChatBarMoreView.m */,
+				285471741CE48E4A00AC4FEA /* FFPageFaceView.h */,
+				285471731CE48E4A00AC4FEA /* FFPageFaceView.m */,
+				2823365E1CE5B2F0005D89F2 /* FFEmotionPopView.h */,
+				2823365F1CE5B2F0005D89F2 /* FFEmotionPopView.m */,
+				2854713E1CE4709000AC4FEA /* FFEmotionTool.h */,
+				2854713F1CE4709000AC4FEA /* FFEmotionTool.m */,
+				285471271CE46D6500AC4FEA /* FFEmotion.h */,
+				285471281CE46D6500AC4FEA /* FFEmotion.m */,
+				2854712F1CE46E6F00AC4FEA /* FFEmotionAttachment.h */,
+				285471301CE46E6F00AC4FEA /* FFEmotionAttachment.m */,
+				285471761CE48E6F00AC4FEA /* FFEmotionView.h */,
+				285471771CE48E6F00AC4FEA /* FFEmotionView.m */,
+				28342CAE1CEADCEA00756BC9 /* 自定义文本框 */,
+				28342CAD1CEADCC200756BC9 /* 类扩展 */,
+				282336611CE5C2B6005D89F2 /* XMProgressHUD.h */,
+				282336621CE5C2B6005D89F2 /* XMProgressHUD.m */,
+				285471411CE470D900AC4FEA /* MJExtension */,
+				2854712A1CE46E2C00AC4FEA /* EmotionIcons */,
+				287E333E1CE1A15A0059C3DC /* SwipeView */,
+				287E33341CE19F930059C3DC /* chatBar.xcassets */,
+				287E33081CE19F420059C3DC /* Main.storyboard */,
+				287E330B1CE19F420059C3DC /* Assets.xcassets */,
+				287E330D1CE19F420059C3DC /* LaunchScreen.storyboard */,
+				287E33101CE19F420059C3DC /* Info.plist */,
+				287E32FF1CE19F420059C3DC /* Supporting Files */,
+			);
+			path = "自定义聊天输入框";
+			sourceTree = "<group>";
+		};
+		287E32FF1CE19F420059C3DC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				287E33001CE19F420059C3DC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		287E33181CE19F420059C3DC /* 自定义聊天输入框Tests */ = {
+			isa = PBXGroup;
+			children = (
+				287E33191CE19F420059C3DC /* ________Tests.m */,
+				287E331B1CE19F420059C3DC /* Info.plist */,
+			);
+			path = "自定义聊天输入框Tests";
+			sourceTree = "<group>";
+		};
+		287E33231CE19F420059C3DC /* 自定义聊天输入框UITests */ = {
+			isa = PBXGroup;
+			children = (
+				287E33241CE19F420059C3DC /* ________UITests.m */,
+				287E33261CE19F420059C3DC /* Info.plist */,
+			);
+			path = "自定义聊天输入框UITests";
+			sourceTree = "<group>";
+		};
+		287E333E1CE1A15A0059C3DC /* SwipeView */ = {
+			isa = PBXGroup;
+			children = (
+				287E333F1CE1A15A0059C3DC /* SwipeView.h */,
+				287E33401CE1A15A0059C3DC /* SwipeView.m */,
+			);
+			path = SwipeView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		287E32FB1CE19F420059C3DC /* 自定义聊天输入框 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 287E33291CE19F420059C3DC /* Build configuration list for PBXNativeTarget "自定义聊天输入框" */;
+			buildPhases = (
+				287E32F81CE19F420059C3DC /* Sources */,
+				287E32F91CE19F420059C3DC /* Frameworks */,
+				287E32FA1CE19F420059C3DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "自定义聊天输入框";
+			productName = "自定义聊天输入框";
+			productReference = 287E32FC1CE19F420059C3DC /* 自定义聊天输入框.app */;
+			productType = "com.apple.product-type.application";
+		};
+		287E33141CE19F420059C3DC /* 自定义聊天输入框Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 287E332C1CE19F420059C3DC /* Build configuration list for PBXNativeTarget "自定义聊天输入框Tests" */;
+			buildPhases = (
+				287E33111CE19F420059C3DC /* Sources */,
+				287E33121CE19F420059C3DC /* Frameworks */,
+				287E33131CE19F420059C3DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				287E33171CE19F420059C3DC /* PBXTargetDependency */,
+			);
+			name = "自定义聊天输入框Tests";
+			productName = "自定义聊天输入框Tests";
+			productReference = 287E33151CE19F420059C3DC /* 自定义聊天输入框Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		287E331F1CE19F420059C3DC /* 自定义聊天输入框UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 287E332F1CE19F420059C3DC /* Build configuration list for PBXNativeTarget "自定义聊天输入框UITests" */;
+			buildPhases = (
+				287E331C1CE19F420059C3DC /* Sources */,
+				287E331D1CE19F420059C3DC /* Frameworks */,
+				287E331E1CE19F420059C3DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				287E33221CE19F420059C3DC /* PBXTargetDependency */,
+			);
+			name = "自定义聊天输入框UITests";
+			productName = "自定义聊天输入框UITests";
+			productReference = 287E33201CE19F420059C3DC /* 自定义聊天输入框UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		287E32F41CE19F420059C3DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "黄飞";
+				TargetAttributes = {
+					287E32FB1CE19F420059C3DC = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 5JPCKT42RQ;
+					};
+					287E33141CE19F420059C3DC = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 287E32FB1CE19F420059C3DC;
+					};
+					287E331F1CE19F420059C3DC = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 287E32FB1CE19F420059C3DC;
+					};
+				};
+			};
+			buildConfigurationList = 287E32F71CE19F420059C3DC /* Build configuration list for PBXProject "自定义聊天输入框" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 287E32F31CE19F420059C3DC;
+			productRefGroup = 287E32FD1CE19F420059C3DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				287E32FB1CE19F420059C3DC /* 自定义聊天输入框 */,
+				287E33141CE19F420059C3DC /* 自定义聊天输入框Tests */,
+				287E331F1CE19F420059C3DC /* 自定义聊天输入框UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		287E32FA1CE19F420059C3DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				287E330F1CE19F420059C3DC /* LaunchScreen.storyboard in Resources */,
+				287E330C1CE19F420059C3DC /* Assets.xcassets in Resources */,
+				287E330A1CE19F420059C3DC /* Main.storyboard in Resources */,
+				2854712B1CE46E2C00AC4FEA /* EmotionIcons in Resources */,
+				287E33351CE19F930059C3DC /* chatBar.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		287E33131CE19F420059C3DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		287E331E1CE19F420059C3DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		287E32F81CE19F420059C3DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AE56351CE44B96006434E5 /* NSString+Emoji.m in Sources */,
+				2823365D1CE567AA005D89F2 /* FFEmotionTextView.m in Sources */,
+				2854715E1CE470D900AC4FEA /* NSObject+MJKeyValue.m in Sources */,
+				287E33071CE19F420059C3DC /* ViewController.m in Sources */,
+				287E333C1CE19FE50059C3DC /* FFChatFaceView.m in Sources */,
+				287E33041CE19F420059C3DC /* AppDelegate.m in Sources */,
+				2854715B1CE470D900AC4FEA /* MJPropertyType.m in Sources */,
+				2854715F1CE470D900AC4FEA /* NSObject+MJProperty.m in Sources */,
+				2854715D1CE470D900AC4FEA /* NSObject+MJCoding.m in Sources */,
+				287E33011CE19F420059C3DC /* main.m in Sources */,
+				287E33411CE1A15A0059C3DC /* SwipeView.m in Sources */,
+				285471341CE46ECD00AC4FEA /* UIImage+Extension.m in Sources */,
+				2854715A1CE470D900AC4FEA /* MJPropertyKey.m in Sources */,
+				285471571CE470D900AC4FEA /* MJExtensionConst.m in Sources */,
+				285471311CE46E6F00AC4FEA /* FFEmotionAttachment.m in Sources */,
+				285471751CE48E4A00AC4FEA /* FFPageFaceView.m in Sources */,
+				285471781CE48E6F00AC4FEA /* FFEmotionView.m in Sources */,
+				2854715C1CE470D900AC4FEA /* NSObject+MJClass.m in Sources */,
+				2854713A1CE46F7A00AC4FEA /* FFTextView.m in Sources */,
+				285471291CE46D6500AC4FEA /* FFEmotion.m in Sources */,
+				282336631CE5C2B6005D89F2 /* XMProgressHUD.m in Sources */,
+				285471591CE470D900AC4FEA /* MJProperty.m in Sources */,
+				2854713D1CE46FD500AC4FEA /* UIView+Extension.m in Sources */,
+				285471401CE4709000AC4FEA /* FFEmotionTool.m in Sources */,
+				28047D6C1CE97EF70066A3AE /* FFChatBarMoreView.m in Sources */,
+				287E334A1CE1BCA60059C3DC /* FFChatBar.m in Sources */,
+				285471601CE470D900AC4FEA /* NSString+MJExtension.m in Sources */,
+				282336601CE5B2F0005D89F2 /* FFEmotionPopView.m in Sources */,
+				285471581CE470D900AC4FEA /* MJFoundation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		287E33111CE19F420059C3DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				287E331A1CE19F420059C3DC /* ________Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		287E331C1CE19F420059C3DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				287E33251CE19F420059C3DC /* ________UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		287E33171CE19F420059C3DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 287E32FB1CE19F420059C3DC /* 自定义聊天输入框 */;
+			targetProxy = 287E33161CE19F420059C3DC /* PBXContainerItemProxy */;
+		};
+		287E33221CE19F420059C3DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 287E32FB1CE19F420059C3DC /* 自定义聊天输入框 */;
+			targetProxy = 287E33211CE19F420059C3DC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		287E33081CE19F420059C3DC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				287E33091CE19F420059C3DC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		287E330D1CE19F420059C3DC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				287E330E1CE19F420059C3DC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		287E33271CE19F420059C3DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		287E33281CE19F420059C3DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		287E332A1CE19F420059C3DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "自定义聊天输入框/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "huangfei.--------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		287E332B1CE19F420059C3DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "自定义聊天输入框/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "huangfei.--------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		287E332D1CE19F420059C3DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "自定义聊天输入框Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "huangfei.--------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/自定义聊天输入框.app/自定义聊天输入框";
+			};
+			name = Debug;
+		};
+		287E332E1CE19F420059C3DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "自定义聊天输入框Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "huangfei.--------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/自定义聊天输入框.app/自定义聊天输入框";
+			};
+			name = Release;
+		};
+		287E33301CE19F420059C3DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "自定义聊天输入框UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "huangfei.--------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "自定义聊天输入框";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		287E33311CE19F420059C3DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "自定义聊天输入框UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "huangfei.--------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "自定义聊天输入框";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		287E32F71CE19F420059C3DC /* Build configuration list for PBXProject "自定义聊天输入框" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				287E33271CE19F420059C3DC /* Debug */,
+				287E33281CE19F420059C3DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		287E33291CE19F420059C3DC /* Build configuration list for PBXNativeTarget "自定义聊天输入框" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				287E332A1CE19F420059C3DC /* Debug */,
+				287E332B1CE19F420059C3DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		287E332C1CE19F420059C3DC /* Build configuration list for PBXNativeTarget "自定义聊天输入框Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				287E332D1CE19F420059C3DC /* Debug */,
+				287E332E1CE19F420059C3DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		287E332F1CE19F420059C3DC /* Build configuration list for PBXNativeTarget "自定义聊天输入框UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				287E33301CE19F420059C3DC /* Debug */,
+				287E33311CE19F420059C3DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 287E32F41CE19F420059C3DC /* Project object */;
+}
